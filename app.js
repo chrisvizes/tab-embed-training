@@ -1,5 +1,3 @@
-console.log("Hello from Andre");
-
 let viz;
 
 // todo list
