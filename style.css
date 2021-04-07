@@ -1,0 +1,37 @@
+h1 {
+  color: seagreen;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+}
+
+.buttonContainer,
+.rangeFilter{
+    margin-bottom: 20px
+}
+
+button{
+  font-size: larger;
+  background-color: silver;
+  border: 1px solid seagreen;
+  border-radius: 10px;
+}
+
+button:hover{
+    background-color: seashell 
+    colour: black;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+  background-color: #ebebeb;
+}

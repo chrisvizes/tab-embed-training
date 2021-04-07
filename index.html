@@ -1,4 +1,4 @@
-\<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,11 +9,24 @@
       type="text/javascript"
       src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
     ></script>
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body onload="initViz();">
     <h1>Embedded Analytics</h1>
     <h2>Back to School Training</h2>
+
+    <div id="buttonContainer">
+      <button id="pdfButton">Get PDF</button>
+      <button id="powerpointButton">Get PowerPoint</button>
+      <button id="swapViz">Swap Viz</button>
+    </div>
+
+    <div class="rangeFilter">
+      <input type="number" placeholder="min value" id="minValue" />
+      <input type="number" placeholder="max value" id="maxValue" />
+      <button disabled id="filterButton">Filter</button>
+    </div>
 
     <div id="vizContainer"></div>
 
